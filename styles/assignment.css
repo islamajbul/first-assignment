@@ -9,7 +9,8 @@
     background-position: center;
     background-color: #FFFFFF;
     height: 808px;
-    background-size: cover;
+    width: 1600px;
+    background-size: 100% 100%;
     text-align: right;
 
 }
@@ -47,7 +48,10 @@
 /* my failurs styles */
 .my-failurs {
     display: flex;
-    margin: 130px 200px;
+    gap: 87px;
+    margin: 130px;
+    align-items: center;
+
 }
 
 .my-failus-title {
@@ -55,9 +59,9 @@
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 24px;
-    padding-top: 370px;
-    padding-right: 450px;
-    padding-left: 300px;
+    padding-right: 322px;
+
+
 }
 
 .failurs-sub-title {
@@ -65,16 +69,133 @@
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 16px;
-    padding-right: 450px;
-    padding-left: 300px;
+    padding-right: 322px;
 }
 
 .my-failurs-description {
     color: #444343;
     font-weight: 400;
     font-size: 16px;
-    padding-right: 450px;
-    padding-left: 300px;
-    padding-bottom: 300px;
+    padding-right: 322px;
 }
+
 /* my plans styles */
+.my-plans {
+    padding: 130px 230px;
+}
+
+.section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    text-align: center;
+    gap: 80px;
+    align-items: center;
+
+}
+
+.skill-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.skill-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* gradient styles */
+.gradient {
+    margin: 130px 230px;
+    background-image: url(../images/watch.png), url(../images/gradient2.png);
+    background-repeat: no-repeat, repeat;
+    background-position: right bottom, left top;
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    background-size: cover;
+
+
+}
+
+.gradient-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.secondary-btn {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 25px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.gradient-padding {
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+/* contact styles */
+.contact {
+    background-size: cover;
+    display: flex;
+    gap: 331px;
+    background-color: #151414;
+    padding: 130px 230px;
+}
+
+.contact-section-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.contact-description,
+.email,
+.phone {
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.subscribe {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+input {
+
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact input[type=email] {
+    border: 1px white;
+    margin-bottom: 16px;
+    background-color: black;
+    color: #F3F3F3;
+    padding: 18px 30px;
+}
