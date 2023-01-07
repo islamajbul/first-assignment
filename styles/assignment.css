@@ -49,7 +49,7 @@
 .my-failurs {
     display: flex;
     gap: 87px;
-    margin: 130px;
+    margin: 130px 130px 0 130px;
     align-items: center;
 
 }
@@ -116,7 +116,7 @@
 
 /* gradient styles */
 .gradient {
-    margin: 130px 230px;
+    margin: 0 230px 130px 230px;
     background-image: url(../images/watch.png), url(../images/gradient2.png);
     background-repeat: no-repeat, repeat;
     background-position: right bottom, left top;
@@ -124,8 +124,6 @@
     width: 1140px;
     height: 300px;
     background-size: cover;
-
-
 }
 
 .gradient-title {
