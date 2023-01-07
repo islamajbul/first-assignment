@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    font-family: font-family: 'Work Sans';
+}
+
+.header {
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no;
+    background-position: center;
+    background-color: #FFFFFF;
+    height: 808px;
+    background-size: cover;
+    text-align: right;
+
+}
+
+/* banner styles */
+.banner {
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-left: 950px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    padding-top: 216px 230px;
+}
+
+.banner-description {
+    color: #444343;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.contact-btn {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 25px;
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+}
+
+/* my failurs styles */
+.my-failurs {
+    display: flex;
+    margin: 130px 200px;
+}
+
+.my-failus-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    padding-top: 370px;
+    padding-right: 450px;
+    padding-left: 300px;
+}
+
+.failurs-sub-title {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding-right: 450px;
+    padding-left: 300px;
+}
+
+.my-failurs-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 450px;
+    padding-left: 300px;
+    padding-bottom: 300px;
+}
+/* my plans styles */
